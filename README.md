@@ -3,17 +3,13 @@ This project boilerplate is for Edge Delivery Services projects that integrate w
 
 ## Quick Links
 
-Customize your code: https://github.com/blueacorninc/storefront
-Manage your Commerce config: https://github.com/blueacorninc/storefront/blob/main/config.json
-Edit your content: https://da.live/#/blueacorninc/storefront
-Preview your storefront: https://main--storefront--blueacorninc.aem.page/
-Access your Commerce Admin: https://na1-sandbox.admin.commerce.adobe.com/Ukg8GjaRBiW1viqZZHd5Gy
-Try out your API: https://edge-sandbox-graph.adobe.io/api/7531fe1b-c670-4403-81c1-0d8a2346505b/graphql
-To check the status of your Mesh, run aio api-mesh status
-To update your Mesh, run aio api-mesh update mesh_config.json
-View your Mesh details: https://developer.adobe.com/console/projects/35582/4566206088345008992/workspaces/4566206088345017318/details
-For next steps, including how to customize your storefront and make it your own, check out our docs:
-https://experienceleague.adobe.com/developer/commerce/storefront/
+* Customize your code: https://github.com/blueacorninc/storefront
+* Manage your Commerce config: https://github.com/blueacorninc/storefront/blob/main/config.json
+* Edit your content: https://da.live/#/blueacorninc/storefront
+* Preview your storefront: https://main--storefront--blueacorninc.aem.page/
+* Access your Commerce Admin: https://na1-sandbox.admin.commerce.adobe.com/Ukg8GjaRBiW1viqZZHd5Gy
+* Try out your API: https://edge-sandbox-graph.adobe.io/api/7531fe1b-c670-4403-81c1-0d8a2346505b/graphql
+* View your Mesh details: https://developer.adobe.com/console/projects/35582/4566206088345008992/workspaces/4566206088345017318/details
 
 ## Documentation
 
