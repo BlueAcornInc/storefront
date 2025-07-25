@@ -71,6 +71,8 @@ RUN echo 'export PATH="$(pwd)/bin:$PATH"' >> ~/.bashrc
 
 RUN echo 'export WORKSPACE_DIR=$(pwd)' >> ~/.bashrc
 
+RUN echo '[ -f "$WORKSPACE_DIR/.env" ] && source "$WORKSPACE_DIR/.env"' >> ~/.bashrc
+
 RUN sudo mkdir -p -m 755 /etc/apt/keyrings \
 	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
 	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
@@ -79,3 +81,4 @@ RUN sudo mkdir -p -m 755 /etc/apt/keyrings \
 	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 	&& sudo apt update \
 	&& sudo apt install gh -y && sudo apt clean
+
